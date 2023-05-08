@@ -1,9 +1,21 @@
-import Home from "./Home";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import Read from './Read';
+import Write from './Write';
+import Login from './Login';
 
 function App() {
   return (
-  //라우터
-  <Home></Home>
+    <Router>
+      <div>
+        <Routes>
+          <Route exact path="/" component={Home} />
+          <Route path="/login" component={Login} />
+          <Route path="/write" component={Write} />
+          <Route path="/read" component={Read} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
