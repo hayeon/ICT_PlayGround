@@ -1,11 +1,42 @@
 function Write() {
-  
-  
-  
-    return (
-    <div>
-      <h1>게시판 읽기 페이지</h1>
-    </div>
+  const [title, setTitle] = useState('');
+  const [content, setContent] = useState('');
+
+  const handleTitleChange = (event) => {
+    setTitle(event.target.value);
+  };
+
+  const handleContentChange = (event) => {
+    setContent(event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // 여기서 글쓰기 작업을 수행합니다.
+    console.log(title, content);
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <div>
+        <label htmlFor="title">제목:</label>
+        <input
+          type="text"
+          id="title"
+          value={title}
+          onChange={handleTitleChange}
+        />
+      </div>
+      <div>
+        <label htmlFor="content">내용:</label>
+        <textarea
+          id="content"
+          value={content}
+          onChange={handleContentChange}
+        />
+      </div>
+      <button type="submit">글쓰기</button>
+    </form>
   );
 }
 
