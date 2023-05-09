@@ -1,4 +1,12 @@
-<h2>📍한이음 멘토링 Eat IT Study Repo📍</h2>
-<h4> Eat IT Study Repo</h4>
+# 📍한이음 멘토링 Eat IT Study Repo
 
-### 이름을 딴 브랜치와 폴더를 만들어주시고, 커밋된 사항은 main으로 merge해주세요 !
+## Eat IT Study Repo
+
+### 5월 스터디 : React 기초 및 깃허브 Projects 관리하기
+
+#### 🛠️Stack🛠️
+- Javascript
+- Styled-components
+- Bootstrap
+- React
+  - React ver: 18
