@@ -4,5 +4,5 @@
 <h3> 🛠️Stack🛠️</h3> 
 <h4>Javascript</h4>
 <h4>Styled-components</h4>
-<h4>Bootstrap/h4>
-<h4> React 18/h4>
+<h4>Bootstrap</h4>
+<h4> React 18</h4>
