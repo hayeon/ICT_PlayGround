@@ -1,0 +1,14 @@
+{
+  "name": "ict_playground",
+  "version": "1.0.0",
+  "description": "<h2>📍한이음 멘토링 Eat IT Study Repo📍</h2>\r <h4> Eat IT Study Repo</h4>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-router-dom": "^6.11.1"
+  }
+}
