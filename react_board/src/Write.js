@@ -1,3 +1,6 @@
+//태란님 코드
+import { useState } from "react";
+
 function Write() {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
@@ -13,7 +16,9 @@ function Write() {
   const handleSubmit = (event) => {
     event.preventDefault();
     // 여기서 글쓰기 작업을 수행합니다.
-    console.log(title, content);
+    // console.log(title, content);
+    // localStorage.setItem('title', title);
+   
   };
 
   return (
