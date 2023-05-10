@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 function Write() {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');

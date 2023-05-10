@@ -9,6 +9,7 @@ function Home() {
         <ul>
           <li><NavLink to="/read" activeClassName="active-link">Bulletin Board</NavLink></li>
           <li><NavLink to="/write" activeClassName="active-link">Write Page</NavLink></li>
+          
         </ul>
       </nav>
       <button className="login-button"><NavLink to="/login" activeClassName="active-link">Login</NavLink></button>
