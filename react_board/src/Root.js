@@ -1,3 +1,5 @@
+//영서님 코드
+
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import Home from './Home';
 // import Read from './Read';
@@ -22,7 +24,6 @@
 // export default App;
 
 import { Outlet } from "react-router-dom";
-import Home from "./Home";
 
 function Root() {
   

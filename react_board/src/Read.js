@@ -1,11 +1,12 @@
+//채연님 코드
 import React from 'react';
-//css-in-js
 // import style from 'styled-components';
 import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router';
 
 function Read() {
   const navigate = useNavigate();
+  // console.log(localStorage.getItem('title'));
 
     return (
     <div>

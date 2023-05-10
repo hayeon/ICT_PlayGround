@@ -1,5 +1,6 @@
-import { NavLink } from 'react-router-dom';
-import './Home.css';
+//영서님 코드 +꾸미기
+import { NavLink } from "react-router-dom";
+import "./Home.css";
 
 function Home() {
   return (
@@ -7,12 +8,23 @@ function Home() {
       <h1>Main Page</h1>
       <nav>
         <ul>
-          <li><NavLink to="/read" activeClassName="active-link">Bulletin Board</NavLink></li>
-          <li><NavLink to="/write" activeClassName="active-link">Write Page</NavLink></li>
-          
+          <li>
+            <NavLink to="/read" activeClassName="active-link">
+              Bulletin Board
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/write" activeClassName="active-link">
+              Write Page
+            </NavLink>
+          </li>
         </ul>
       </nav>
-      <button className="login-button"><NavLink to="/login" activeClassName="active-link">Login</NavLink></button>
+      <button className="login-button">
+        <NavLink to="/login" activeClassName="active-link">
+          Login
+        </NavLink>
+      </button>
     </div>
   );
 }
