@@ -1,6 +1,14 @@
+/* 폰트 설정 */
+@font-face {
+  font-family: 'HSJiptokki-Round';
+  src: url('font/HSJiptokki-Round.ttf') format('truetype');
+}
+
 .home {
-    background-color: #f5f5f5;
+    font-family: 'HSJiptokki-Round';
+    background-color: #CCCCFF;
     padding: 20px;
+    margin-left : 180px
   }
   
   nav {
@@ -19,10 +27,16 @@
   }
   
   nav a {
+    font-family: 'HSJiptokki-Round';
     text-decoration: none;
     color: #333;
     font-size: 20px;
     padding: 10px;
+  }
+
+ /* 마우스 올리면 색상 변경 */
+  nav a:hover {
+    color: white;
   }
   
   .active-link {
@@ -30,15 +44,36 @@
     color: #fff;
   }
 
+  /* 로그인 버튼 */ 
   .login-button {
-  
- 
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
     position: absolute;
-      
-     
-    top: 10px;
-      
-     
-    right: 10px;
-    }
+    top: 20px;
+    right: 20px;
+  }
   
+  /* 검색 버튼 */
+  .search-box {
+      position: absolute;
+      top: 60px;
+      right: 20px;
+  }    
+    
+  .search-box input[type="text"] {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-right: 10px;
+  }
+    
+  .search-box button {
+      padding: 8px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+    
